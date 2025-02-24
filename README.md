@@ -11,8 +11,6 @@
 [![](https://img.shields.io/badge/%20-issues-000000?style=for-the-badge&labelColor=7b7b7b&logo=github)](https://github.com/0x0060/BadgeGen/issues)
 
 
-[Documentation](#documentation) | [Contributing](#contributing)
-
 </div>
 
 ## Features ϟ
