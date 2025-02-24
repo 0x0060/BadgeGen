@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Badge Generator</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../assets/js/theme.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a class="logo-nav" href="../index.html">BadgeGen</a></div>
+
+            <div class="nav-right">
+                <button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="https://github.com/0x0060/BadgeGen" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="badge-generator">
+            <h1>Create your Badge</h1>
+            <div class="generator-container">
+                <div class="custom-section">
+                    <div class="input-group">
+                        <div class="input-row">
+                            <div class="input-with-icon">
+                                <input type="text" id="label" placeholder="Label (e.g., Version)" class="badge-input">
+                            </div>
+                            <div class="input-with-icon">
+                                <input type="text" id="message" placeholder="Message (e.g., v1.0.0)" class="badge-input">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="color-group">
+                                <label>Label Color</label>
+                                <input type="color" id="labelColor" value="#555555" class="color-input">
+                            </div>
+                            <div class="color-group">
+                                <label>Message Color</label>
+                                <input type="color" id="messageColor" value="#97ca00" class="color-input">
+                            </div>
+                        </div>
+                        <select id="style" class="badge-input">
+                            <option value="flat">Flat</option>
+                            <option value="flat-square">Flat Square</option>
+                            <option value="for-the-badge">For The Badge</option>
+                            <option value="plastic">Plastic</option>
+                            <option value="social">Social</option>
+                        </select>
+                        <div class="advanced-options">
+                            <button id="advancedToggle" class="toggle-btn">
+                                <i class="fas fa-cog"></i> Advanced Options
+                            </button>
+                            <div id="advancedPanel" class="advanced-panel hidden">
+                                <div class="input-with-icon">
+                                    <input type="text" id="logo" placeholder="Logo (e.g., github)" class="badge-input">
+                                    <button class="icon-picker-btn" id="logoIconBtn"><i class="fas fa-icons"></i></button>
+                                </div>
+                                <input type="text" id="logoColor" placeholder="Logo Color (hex or name)" class="badge-input">
+                                <input type="text" id="linkUrl" placeholder="URL (optional)" class="badge-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preview-section">
+                        <h3>Badge Preview</h3>
+                        <div id="badgePreview" class="preview-container">
+                            <!-- Badge preview will be inserted here -->
+                        </div>
+                        <button id="copyButton" class="copy-btn">
+                            <i class="far fa-copy"></i> Copy Markdown
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
