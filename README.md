@@ -6,7 +6,7 @@
 ![196_1x_shots_so](https://github.com/user-attachments/assets/5a0ec3f7-fc5b-4238-8941-955aacb0c1f2)
 
 
-[![](https://img.shields.io/badge/%20-license-000000?style=for-the-badge&labelColor=7b7b7b&logo=github)](https://img.shields.io/github/license/0x0060/BadgeGen)
+[![](https://img.shields.io/badge/%20-MIT-000000?style=for-the-badge&labelColor=7b7b7b&logo=github)](https://img.shields.io/github/license/0x0060/BadgeGen)
 [![](https://img.shields.io/badge/%20-stars-000000?style=for-the-badge&labelColor=7b7b7b&logo=github)](https://img.shields.io/github/stars/0x0060/BadgeGen)
 [![](https://img.shields.io/badge/%20-issues-000000?style=for-the-badge&labelColor=7b7b7b&logo=github)](https://img.shields.io/github/issues/0x0060/BadgeGen)
 
